@@ -99,7 +99,7 @@ const Header = () => {
           <div
             className={`${classes.navigation}`}
             ref={menuRef}
-            onClick={toggleMenu}
+            onClick={toggleMenu} style={{color:"white"}}
           >
             <div className={`${classes.nav__menu}`}>
               {crossMenu && (
