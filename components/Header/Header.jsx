@@ -97,9 +97,9 @@ const Header = () => {
 
           {/* ========= nav menu =========== */}
           <div
-            className={`${classes.navigation}`}
+            className={`${classes.navigation} text:white `}
             ref={menuRef}
-            onClick={toggleMenu} style={{color:"white"}}
+            onClick={toggleMenu} }
           >
             <div className={`${classes.nav__menu}`}>
               {crossMenu && (
