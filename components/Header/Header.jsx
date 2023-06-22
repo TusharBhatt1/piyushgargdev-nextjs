@@ -130,7 +130,7 @@ const Header = () => {
                   className={`${classes.mobile__menuDiv} cursor-pointer`}
                 >
                   <Link href={"#"}>
-                    <p className={`${classes.mobile__menu}`}>{icons[4]}</p>
+                    <p className={`${classes.mobile__menu} text-white `}>{icons[4]}</p>
                   </Link>
 
                   <Link href={"/#"}>
